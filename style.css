@@ -1,0 +1,550 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+
+}
+header{
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+body{
+    
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.navbar-nav a{
+  font-family: poppins;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+  
+}
+.navbar-light .navbar-brand {
+  color:#fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #4CAF50;
+  
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+
+   
+   
+
+
+.carousel-item{
+  height: 100vh;
+  min-height:300px;
+  background:no-repeat center center scroll;
+  -webkit-background-size: cover ;
+  background-size: cover;
+  
+}
+
+
+.recent_container{
+    height: fit-content;
+    width: 100%;
+    background-color:black;
+    position: relative;
+    
+    
+}
+    
+    
+
+
+.subText{
+  font-family: "poppins" , sans-serif;
+  color: #232e2a  ;
+  font-size: 40px;
+  text-align: center;
+ 
+  height: 60px;
+  
+  padding-top: 20px; /*underline alignment*/
+}
+
+.underline{
+  height: 2px;
+  width: 50px;
+  background: linear-gradient(to right,#232e2a 0%, #4CAF50 100%);
+  margin-left: auto;
+  margin-right: auto;
+  
+  background-color: #4CAF50;
+  margin-top: 10px;
+  text-align: center;
+  
+  
+
+  
+
+}
+
+.instapicContainer{
+ 
+  height: fit-content;
+  margin-top: 30px;
+  width: 100%/6;
+  
+ 
+ 
+  
+  
+}
+
+
+
+
+/*hover zoom picture*/
+
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  
+  
+  transition: transform .2s;
+  width: 240px;
+  height: 300px;
+ 
+  margin: 0 ;
+ 
+
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  height: 300px;
+  width: 100%;
+}
+
+
+/*text on instapic*/
+
+.container {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  
+  color: white;
+  font-size: 20px;
+  
+  font-family: "poppins";
+}
+
+
+/*gallery container*/
+
+.gallery_container{
+  width: 100%;
+  height: 300px;
+  background-color:black;
+  
+
+}
+/*gallery page*/
+.galleryContainer{
+  
+  background-color:#4CAF50;
+  
+
+
+}
+
+.ghomecontainer{
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+.ghomecontainer img{
+  width: 300px;
+  height: 300px;
+  position: absolute; right: 10%;
+  margin-top: 40px;
+  background-color: black;
+  
+  
+  
+}
+
+.heading{
+  font-size: 70px;
+  font-family: "poppins";
+  color: #4CAF50;
+  margin-left: 200px;
+  position: absolute; top: 25%;
+}
+/*gallery grid*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+ 
+  padding: 32px;
+}
+
+.grow {
+ 
+  display: flex;
+ 
+  padding: 0 4px;
+  height: 500px;
+  width: 100%;
+}
+
+/* Create two equal columns that sits next to each other */
+.gcolumn {
+ 
+  padding: 0 4px;
+  height: 500px;
+  width: 100%;
+
+  
+}
+
+.gcolumn img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.downloadcontainer{
+  width: 100%;
+  height:1000px;
+}
+
+/*presetcontainer*/
+
+
+
+.sideText{
+  font-family: "poppins" , sans-serif;
+  color: #232e2a  ;
+  font-size: 40px;
+  margin-left: 20px;
+  height: 60px;
+  
+  padding-top: 20px; /*underline alignment*/
+}
+
+.underline1{
+  height: 2px;
+  width: 50px;
+  background: linear-gradient(to right,#232e2a 0%, #4CAF50 100%);
+  
+  background-color: #4CAF50;
+  margin-top: 10px;
+  margin-left: 21px;
+  
+  
+
+  
+
+}
+
+
+
+
+.underline2{
+  height: 2px;
+  width: 160px;
+  background: linear-gradient(to right,#232e2a 0%, #4CAF50 100%);
+  
+  background-color: #4CAF50;
+  position: absolute; top: 37%;
+  margin-left:250px ;
+  
+  
+
+  
+
+}
+
+/*download page*/
+.underline3{
+  height: 2px;
+  width: 285px;
+  background: linear-gradient(to right,#232e2a 0%, #4CAF50 100%);
+  
+  background-color: #4CAF50;
+  position: absolute; top: 37%;
+  margin-left:300px ;
+  
+  
+
+  
+
+}
+.presetcontainer{
+  width: 100%;
+  height: 300px;
+  background-color:white;
+  
+  
+  
+  
+  
+}
+
+.presettextcontainer{
+  height: 60px;
+  text-align: left;
+  font-size: 40px;
+  font-family: "poppins";
+  color: #232e2a;
+  margin-left: 205px;
+  overflow: hidden;
+  padding-top: 12px;
+  margin-top: 20px;
+  
+  
+
+
+
+}
+
+.underline4{
+  height: 2px;
+  width: 80px;
+  background: linear-gradient(to right,#232e2a 0%, #4CAF50 100%);
+  
+  background-color: #4CAF50;
+  
+  margin-left:206px ;
+  
+  
+  
+
+  
+
+}
+
+/*download image hover effect*/
+.dcontainer {
+  position: relative;
+  width: 533px;
+  margin-left: 80px;
+}
+
+.dimage {
+  display: block;
+  width: 533px;
+  height: 300px;
+}
+
+.doverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 533px;
+  opacity: 0;
+  transition: .5s ease;
+  background-image:url(../img/urbanbefore.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+  
+  
+}
+
+.dcontainer:hover .doverlay {
+  opacity: 1;
+}
+
+.dtext {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  bottom: 0%;
+  left: 15%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "poppins";
+}
+
+/*preset container--------------------------------------preset container*/
+.precontainer{
+  
+  height:300px;
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+ 
+}
+
+.dcontainer1 {
+  position: relative;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dimage1 {
+  display: block;
+  width: 240px;
+  height: 300px;
+}
+
+.doverlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 240px;
+  opacity: 0;
+  transition: .5s ease;
+  background-image:url(../img/darkmoodybefore.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+  
+  
+}
+
+.dcontainer1:hover .doverlay1 {
+  opacity: 1;
+}
+
+.dtext1 {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  bottom: 0%;
+  left: 15%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "poppins";
+  margin-left: 50px;
+}
+
+.dcontainer2 {
+  position: relative;
+  width: 225px;
+  
+  margin-right: auto;
+}
+
+.dimage2 {
+  display: block;
+  width: 225px;
+  height: 300px;
+
+}
+
+.doverlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 225px;
+  opacity: 0;
+  transition: .5s ease;
+  background-image:url(../img/urbanblackandorangebefore.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+  
+  
+}
+
+.dcontainer2:hover .doverlay2 {
+  opacity: 1;
+}
+
+.dtext2 {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  bottom: 0%;
+  left: 5%;
+  
+  text-align: left;
+  font-family: "poppins";
+ 
+  margin-bottom: 0;
+}
+
+.smalltext{
+  font-family: "poppins";
+  color: #232e2a;
+  
+  position: absolute; top: 37%; left: 14%;
+}
+
+
+
+
